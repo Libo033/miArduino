@@ -1,3 +1,4 @@
+import NavigationBar from "@/components/NavigationBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Titillium_Web } from "next/font/google";
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={titi.className}>{children}</body>
+      <body className={titi.className}>
+        <NavigationBar />
+        {children}
+      </body>
     </html>
   );
 }
