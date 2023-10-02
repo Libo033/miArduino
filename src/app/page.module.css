@@ -3,5 +3,68 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 10vh;
+}
+
+.section1 {
+  height: 88vh;
+  padding: 2% 15%;
+  background-color: #fcfbfb;
+}
+
+.section1 h1 {
+  font-size: 30px;
+}
+
+.section1_info {
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 45px;
+}
+
+.section1_info p {
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.section1_info img {
+  width: 54%;
+  height: auto;
+  filter: drop-shadow(9px 9px 9px #666);
+}
+
+.section2 {
+  height: 100vh;
+  background-color: #649CE5;
+}
+
+.section3 {
+  height: 100vh;
+  background-color: #fcfbfb;
+  padding: 4.5% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3 a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tinkercad {
+  width: 51%;
+  height: auto;
+}
+
+.section3_text {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  margin-block: 3rem;
 }
