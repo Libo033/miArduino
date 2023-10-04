@@ -17,8 +17,8 @@ const NavigationBar = () => {
           </Link>
         </li>
         <li className={styles.NavigationBar_listLi}>
-          <Link className={styles.NavigationBar_link} href={"/librerias"}>
-            librerias
+          <Link className={styles.NavigationBar_link} href={"/arduino"}>
+            arduino
           </Link>
         </li>
       </ul>
