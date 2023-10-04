@@ -42,21 +42,21 @@ export default function Home() {
           <HeaderCard
             title={"Liquid Crystal Displays"}
             info={
-              "Find out how to wire an LCD to an Arduino, and how to use the LiquidCrystal library through a set of useful examples."
+              "Descubra cómo conectar una pantalla LCD a un Arduino y utilize la biblioteca LiquidCrystal a través de una serie de ejemplos útiles."
             }
             url={"https://docs.arduino.cc/learn/electronics/lcd-displays"}
           />
           <HeaderCard
             title={"Keypad"}
             info={
-              "Keypad is a library for using matrix style keypads with the Arduino. As of version 3.0 it now supports mulitple keypresses."
+              "Keypad es una biblioteca para usar teclados matriciales con Arduino. Desde la versión 3.0, ahora admite múltiples pulsaciones de teclas."
             }
             url={"https://playground.arduino.cc/Code/Keypad/"}
           />
           <HeaderCard
             title={"Wire"}
             info={
-              "This library allows you to communicate with I2C/TWI devices. On the Arduino boards with the R3 layout, the SDA and SCL are on the pin headers close to the AREF pin."
+              "Esta biblioteca le permite comunicarse con dispositivos I2C/TWI. En las placas Arduino con diseño R3, SDA y SCL están en los cabezales de los pines cerca del pin AREF."
             }
             url={
               "https://www.arduino.cc/reference/en/language/functions/communication/wire/"

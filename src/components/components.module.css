@@ -147,7 +147,7 @@
 
 .HeaderCard_Link:hover {
   transition: 100ms ease-in-out;
-  box-shadow: 1px 3px 9px #649CE5;
+  box-shadow: 1px 3px 9px #649ce5;
 }
 /*#endregion */
 
@@ -171,7 +171,7 @@
   /*#endregion */
 }
 
-@media (min-width: 210px) and (max-width: 767px) and (orientation: portrait) {
+@media (max-width: 767px) and (orientation: portrait) {
   /*#region NAVIGATION BAR */
   .NavigationBar {
     height: 15vh;
@@ -221,6 +221,62 @@
   .Footer_pageLink {
     width: 27%;
     text-align: center;
+  }
+  /*#endregion */
+
+  /*#region HEADER CARD */
+  .HeaderCard {
+    padding: 12px;
+  }
+
+  .HeaderCard_TitleContainer {
+    margin-bottom: 6px;
+  }
+
+  .HeaderCard_Title {
+    font-size: 17px;
+  }
+
+  .HeaderCard_InfoContainer {
+    margin-bottom: 9px;
+  }
+
+  .HeaderCard_Info {
+    font-size: 14px;
+  }
+
+  .HeaderCard_Link {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  /*#endregion */
+}
+
+@media (max-width: 300px) {
+  /*#region HEADER CARD */
+  .HeaderCard {
+    width: 270px;
+    padding: 9px;
+  }
+
+  .HeaderCard_TitleContainer {
+    margin-bottom: 3px;
+  }
+
+  .HeaderCard_Title {
+    font-size: 15px;
+  }
+
+  .HeaderCard_InfoContainer {
+    margin-bottom: 9px;
+  }
+
+  .HeaderCard_Info {
+    font-size: 12px;
+  }
+
+  .HeaderCard_Link {
+    font-size: 13px;
   }
   /*#endregion */
 }
