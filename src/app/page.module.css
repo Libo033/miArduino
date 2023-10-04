@@ -39,6 +39,23 @@
 .section2 {
   height: 100vh;
   background-color: #649CE5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 h2 {
+  font-size: 30px;
+  color: #fcfbfb;
+  text-align: left;
+}
+
+.section2_cards {
+  width: 100%;
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .section3 {

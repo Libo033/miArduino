@@ -96,6 +96,61 @@
 }
 /*#endregion */
 
+/*#region HEADER CARD */
+.HeaderCard {
+  border: 1px solid #a5aeb3;
+  border-radius: 12px;
+  background-color: #fbfbfb;
+  width: 315px;
+  padding: 15px;
+  box-shadow: 1px 3px 12px #696969;
+  display: grid;
+}
+
+.HeaderCard_TitleContainer {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #add0e8;
+  align-self: flex-start;
+}
+
+.HeaderCard_Title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.HeaderCard_InfoContainer {
+  margin-bottom: 12px;
+}
+
+.HeaderCard_Info {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.HeaderCard_LinkContainer {
+  width: fit-content;
+  border-radius: 6px;
+  background-color: #add0e8;
+  align-self: flex-end;
+}
+
+.HeaderCard_Link {
+  transition: 100ms ease-in-out;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.HeaderCard_Link:hover {
+  transition: 100ms ease-in-out;
+  box-shadow: 1px 3px 9px #649CE5;
+}
+/*#endregion */
+
 @media (min-width: 360px) and (max-width: 950px) and (max-height: 420px) and (orientation: landscape) {
   /*#region NAVIGATION BAR */
   .NavigationBar {
