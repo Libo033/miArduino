@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Arduino Uno",
+    "image": "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696258744/03-arduino/shmlrf8vsvz2bbk35n6w.png",
+    "info": [
+      "Microcontrolador ATmega328.",
+      "Voltaje de entrada 7-12V.",
+      "14 pines digitales de I/O (6 salidas PWM).",
+      "6 entradas análogas.",
+      "32k de memoria Flash.",
+      "Reloj de 16MHz de velocidad"
+    ]
+  },
+  {
+    "name": "Arduino Mega",
+    "image": "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696449615/03-arduino/xaneyybuibglowlfww6l.png",
+    "info": [
+      "Microcontrolador ATmega2560.",
+      "Voltaje de entrada de - 7-12V.",
+      "54 pines digitales de Entrada/Salida (14 de ellos son salidas PWM).",
+      "16 entradas análogas.",
+      "256k de memoria Flash.",
+      "Reloj de 16MHz de velocidad"
+    ]
+  },
+  {
+    "name": "Arduino Yun",
+    "image": "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696516989/03-arduino/gqnjpxhhmf9w1t6hrzmr.png",
+    "info": [
+      "Microcontrolador ATmega32U4.",
+      "Voltaje de operación: 5V.",
+      "Voltaje de entrada 5V.",
+      "20 pines digitales de I/O.",
+      "Salidas PWM7.",
+      "Pines Análogos"
+    ]
+  },
+  {
+    "name": "Arduino Nano",
+    "image": "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696517210/03-arduino/v30xlr7dbupkkjanchnf.png",
+    "info": [
+      "Microcontrolador: ATMega328.",
+      "Voltaje de operación: 5V.",
+      "Voltaje de alimentación (Recomendado): 7-12V.",
+      "I/O Digitales: 14 (6 son PWM).",
+      "Memoria Flash: 32KB.",
+      "EEPROM: 1KB.",
+      "Frecuencia de trabajo: 16MHz."
+    ]
+  },
+  {
+    "name": "Arduino Leonardo",
+    "image": "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696517673/03-arduino/fk0pinumv337kiycesac.png",
+    "info": [
+      "Microcontrolador Atmega32u4.",
+      "Voltaje de entrada: 7-12V.",
+      "Voltaje de trabajo: 5V.",
+      "Corriente por pin I/O: 40mA.",
+      "20 pines digitales I/O.",
+      "7 canales PWM.",
+      "16MHz de velocidad de reloj."
+    ]
+  }
+]

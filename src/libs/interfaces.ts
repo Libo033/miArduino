@@ -3,3 +3,9 @@ export interface IHeaderCard {
   info: string;
   url: string;
 }
+
+export interface ICardArduino {
+  name: string;
+  image: string;
+  info: string[];
+}

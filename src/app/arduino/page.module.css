@@ -12,7 +12,6 @@
   background-color: #fcfbfb;
   border-radius: 6px;
   padding: 18px;
-  padding-bottom: 6rem;
 }
 
 .section1 h1 {
@@ -21,7 +20,11 @@
   margin-bottom: 1.8rem;
 }
 
-.section1 p {
+.section1_Text {
   text-align: justify;
   padding-right: 1.5rem;
+}
+
+.cardContainer {
+  padding-top: 3rem;
 }
