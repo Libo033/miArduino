@@ -2,7 +2,6 @@ import React from "react";
 import styles from "@/components/components.module.css";
 import Image from "next/image";
 import { ICardArduino } from "@/libs/interfaces";
-// https://arduino.cl/arduino-2/
 
 const CardArduino: React.FC<ICardArduino> = ({ name, image, info }) => {
   return (
@@ -19,20 +18,11 @@ const CardArduino: React.FC<ICardArduino> = ({ name, image, info }) => {
           />
         </div>
         <div className={styles.CardArduino_InfoContainer}>
-          <p className={styles.CardArduino_InfoText}>
-            Microcontrolador ATmega328.
-          </p>
-          <p className={styles.CardArduino_InfoText}>
-            Voltaje de entrada 7-12V.
-          </p>
-          <p className={styles.CardArduino_InfoText}>
-            14 pines digitales de I/O (6 salidas PWM).
-          </p>
-          <p className={styles.CardArduino_InfoText}>6 entradas análogas.</p>
-          <p className={styles.CardArduino_InfoText}>32k de memoria Flash.</p>
-          <p className={styles.CardArduino_InfoText}>
-            Reloj de 16MHz de velocidad
-          </p>
+          {info.map((txt: string) => (
+            <p className={styles.CardArduino_InfoText} key={txt}>
+              {txt}
+            </p>
+          ))}
         </div>
       </div>
     </article>

@@ -178,7 +178,7 @@
 }
 
 .CardArduino_Image {
-  width: 90%;
+  width: 72%;
   height: auto;
 }
 
@@ -191,7 +191,6 @@
   align-items: center;
   gap: 15px;
 }
-
 
 .CardArduino_InfoText {
   font-size: 18px;
@@ -214,6 +213,13 @@
 
   .NavigationBar_listUl {
     width: 39%;
+  }
+  /*#endregion */
+
+  /*#region CARD ARDUINO */
+  .CardArduino_InfoText {
+    font-size: 15px;
+    text-align: center;
   }
   /*#endregion */
 }
@@ -295,6 +301,41 @@
   .HeaderCard_Link {
     font-weight: 600;
     font-size: 13px;
+  }
+  /*#endregion */
+
+  /*#region CARD ARDUINO */
+  .CardArduino {
+    margin-block: 2.4rem;
+  }
+
+  .CardArduino_Title {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .CardArduino_FullInfo {
+    flex-direction: column;
+  }
+
+  .CardArduino_ImageContainer {
+    width: 100%;
+  }
+
+  .CardArduino_Image {
+    width: 90%;
+    padding-block: 1.2rem;
+  }
+
+  .CardArduino_InfoContainer {
+    padding-block: 21px;
+    width: 100%;
+    gap: 18px;
+  }
+
+  .CardArduino_InfoText {
+    text-align: center;
+    font-size: 15px;
   }
   /*#endregion */
 }

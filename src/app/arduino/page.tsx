@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "@/app/arduino/page.module.css";
 import CardArduino from "@/components/CardArduino";
 import { Divider } from "@mui/material";
@@ -20,16 +20,14 @@ const Arduino = () => {
         </p>
         <div className={styles.cardContainer}>
           {data.map((arduino: ICardArduino, index: number) => (
-            <>
+            <Fragment key={arduino.name}>
               <CardArduino
                 name={arduino.name}
                 image={arduino.image}
                 info={arduino.info}
               />
-              {index+1 !== data.length && (
-                <Divider />
-              )}
-            </>
+              {index + 1 !== data.length && <Divider />}
+            </Fragment>
           ))}
         </div>
       </section>
