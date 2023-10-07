@@ -197,6 +197,33 @@
 }
 /*#endregion */
 
+/*#region CARD PROJECT */
+.CardProject {
+  transition: 60ms ease-in-out 0s;
+  height: fit-content;
+  min-width: 270px;
+  max-width: 100%;
+  cursor: pointer;
+  border: 1px solid #a5aeb3;
+  border-radius: 9px;
+  background-color: #fff;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardProject:hover {
+  transition: 60ms ease-in-out 0s;
+  box-shadow: 1px 3px 15px #45454545;
+  transform: translateY(-1px);
+}
+
+.CardProject_Image {
+  width: 100%;
+  height: auto;
+}
+/*#endregion */
+
 @media (min-width: 360px) and (max-width: 950px) and (max-height: 420px) and (orientation: landscape) {
   /*#region NAVIGATION BAR */
   .NavigationBar {
@@ -365,6 +392,14 @@
 
   .HeaderCard_Link {
     font-size: 13px;
+  }
+  /*#endregion */
+
+  /*#region CARD PROJECT */
+  .CardProject {
+    min-width: 90%;
+    width: 90%;
+    max-width: 100%;
   }
   /*#endregion */
 }
