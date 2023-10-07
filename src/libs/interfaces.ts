@@ -9,3 +9,9 @@ export interface ICardArduino {
   image: string;
   info: string[];
 }
+
+export interface ICardProject {
+  name: string;
+  image: string;
+  to: string;
+}

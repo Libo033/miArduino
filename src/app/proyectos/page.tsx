@@ -7,10 +7,34 @@ const Proyectos = () => {
     <main className={styles.page}>
       <h1>Proyectos</h1>
       <section className={styles.cardContainer}>
-        <CardProject />
-        <CardProject />
-        <CardProject />
-        <CardProject />
+        <CardProject
+          name={"Trabajo Practico Valentin Libonati"}
+          image={
+            "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696531567/03-arduino/lkayszeeyyabcyhceghn.png"
+          }
+          to={""}
+        />
+        <CardProject
+          name={"Trabajo Practico Valentin Libonati"}
+          image={
+            "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696531567/03-arduino/lkayszeeyyabcyhceghn.png"
+          }
+          to={""}
+        />
+        <CardProject
+          name={"Trabajo Practico Valentin Libonati"}
+          image={
+            "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696531567/03-arduino/lkayszeeyyabcyhceghn.png"
+          }
+          to={""}
+        />
+        <CardProject
+          name={"Trabajo Practico Valentin Libonati"}
+          image={
+            "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696531567/03-arduino/lkayszeeyyabcyhceghn.png"
+          }
+          to={""}
+        />
       </section>
     </main>
   );
