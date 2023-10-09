@@ -38,7 +38,7 @@ export async function POST(req: Request) {
 
     return Response.json(
       { creado: nuevo_proyecto_creado.acknowledged },
-      { status: 200 }
+      { status: 201 }
     );
   } catch (error) {
     if (error instanceof Error) {
