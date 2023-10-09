@@ -1,11 +1,6 @@
 import clientPromise from "@/libs/MongoConnect";
 import { Db, MongoClient, ObjectId } from "mongodb";
 
-export async function PUT(req: Request) {
-  const client: MongoClient = await clientPromise;
-  const db: Db = client.db("arduino");
-}
-
 export async function DELETE(
   req: Request,
   { params }: { params: { id: string } }
