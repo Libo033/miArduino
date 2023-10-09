@@ -15,3 +15,11 @@ export interface ICardProject {
   image: string;
   to: string;
 }
+
+export interface IDataReceivePOST {
+  name: string;
+  image: string;
+  to: string;
+  url: string;
+  info: string;
+}
