@@ -87,6 +87,26 @@
   margin-block: 3rem;
 }
 
+@media (max-height: 640px) and (orientation: landscape) {
+  .section1 {
+    height: fit-content;
+  }
+
+  .section2 {
+    height: fit-content;
+    padding-block: 2.4rem;
+  }
+
+  .section2_cards {
+    gap: 32px;
+  }
+
+  .section3 {
+    height: fit-content;
+    padding-block: 3rem;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .section1 {
     padding: 2% 12%;
