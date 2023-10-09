@@ -3,15 +3,21 @@ import { IDataReceivePOST } from "@/libs/interfaces";
 import { Db, Document, MongoClient, WithId } from "mongodb";
 
 export async function GET(req: Request) {
-  const client: MongoClient = await clientPromise;
-  const db: Db = client.db("arduino");
+  try {
+    const client: MongoClient = await clientPromise;
+    const db: Db = client.db("arduino");
 
-  const proyectos: WithId<Document>[] = await db
-    .collection("proyectos")
-    .find()
-    .toArray();
+    const proyectos: WithId<Document>[] = await db
+      .collection("proyectos")
+      .find()
+      .toArray();
 
-  return Response.json(proyectos, { status: 200 });
+    return Response.json(proyectos, { status: 200 });
+  } catch (error) {
+    if (error instanceof Error) {
+      return Response.json(error.message, { status: 500 });
+    }
+  }
 }
 
 export async function POST(req: Request) {
@@ -29,7 +35,7 @@ export async function POST(req: Request) {
       image: body.image,
       to: body.to,
       url: body.url,
-      info: body.info
+      info: body.info,
     };
 
     const nuevo_proyecto_creado = await db
