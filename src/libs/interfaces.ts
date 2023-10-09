@@ -14,6 +14,8 @@ export interface ICardProject {
   name: string;
   image: string;
   to: string;
+  url: string;
+  info: string;
 }
 
 export interface IDataReceivePOST {

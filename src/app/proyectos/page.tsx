@@ -12,7 +12,9 @@ const Proyectos = () => {
           image={
             "https://res.cloudinary.com/dsuydyqgz/image/upload/v1696531567/03-arduino/lkayszeeyyabcyhceghn.png"
           }
-          to={""}
+          to={"tp1"}
+          url={""}
+          info={""}
         />
       </section>
     </main>

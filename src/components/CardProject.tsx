@@ -10,7 +10,10 @@ const CardProject: React.FC<ICardProject> = ({ name, image, to }) => {
   const router: AppRouterInstance = useRouter();
 
   return (
-    <article onClick={() => router.push(to)} className={styles.CardProject}>
+    <article
+      onClick={() => router.push("/proyectos/" + to)}
+      className={styles.CardProject}
+    >
       <Image
         className={styles.CardProject_Image}
         src={image}
