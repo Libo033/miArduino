@@ -6,12 +6,12 @@ import { ICardProject } from "@/libs/interfaces";
 import { useRouter } from "next/navigation";
 import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 
-const CardProject: React.FC<ICardProject> = ({ name, image, to }) => {
+const CardProject: React.FC<ICardProject> = ({ name, image, _id }) => {
   const router: AppRouterInstance = useRouter();
 
   return (
     <article
-      onClick={() => router.push("/proyectos/" + to)}
+      onClick={() => router.push("/proyectos/" + _id)}
       className={styles.CardProject}
     >
       <Image

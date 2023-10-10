@@ -26,14 +26,13 @@ export async function POST(req: Request) {
     const db: Db = client.db("arduino");
     const body: IDataReceivePOST = await req.json();
 
-    if (!body.name || !body.image || !body.to || !body.url || !body.info) {
+    if (!body.name || !body.image || !body.url || !body.info) {
       throw new Error("No se recibieron los datos correctamente");
     }
 
     const nuevo_proyecto = {
       name: body.name,
       image: body.image,
-      to: body.to,
       url: body.url,
       info: body.info,
     };

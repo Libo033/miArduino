@@ -11,9 +11,9 @@ export interface ICardArduino {
 }
 
 export interface ICardProject {
+  _id: string;
   name: string;
   image: string;
-  to: string;
   url: string;
   info: string;
 }
@@ -21,7 +21,6 @@ export interface ICardProject {
 export interface IDataReceivePOST {
   name: string;
   image: string;
-  to: string;
   url: string;
   info: string;
 }
