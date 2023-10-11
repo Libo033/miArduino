@@ -5,7 +5,7 @@ import { ICardProject } from "@/libs/interfaces";
 import Image from "next/image";
 import Proyectos from "../page";
 
-const page = ({ params }: { params: { id: string } }) => {
+const Page = ({ params }: { params: { id: string } }) => {
   const [proyecto, setProyecto] = useState<ICardProject>();
 
   useEffect(() => {
@@ -55,4 +55,4 @@ const page = ({ params }: { params: { id: string } }) => {
   );
 };
 
-export default page;
+export default Page;
