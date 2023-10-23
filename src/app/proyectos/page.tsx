@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import CardProject from "@/components/CardProject";
 import { ICardProject } from "@/libs/interfaces";
+import { CircularProgress } from "@mui/material";
 
 const Proyectos = () => {
   const [proyectos, setProyectos] = useState<ICardProject[]>([]);
@@ -30,6 +31,11 @@ const Proyectos = () => {
         {proyectos.length > 0 &&
           proyectos.map((pr) => <CardProject key={pr._id} {...pr} />)}
       </section>
+      {proyectos.length === 0 && (
+        <div className={styles.pageLoaderContainer}>
+          <CircularProgress />
+        </div>
+      )}
     </main>
   );
 };
